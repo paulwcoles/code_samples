@@ -1,0 +1,4617 @@
+Iteration:	1
+h_units:  	10
+l_rate:   	0.5
+look_back:	0
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 10
+Steps for back propagation: 0
+Initial learning rate set to 0.5, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.56598738562
+
+epoch 1, learning rate 0.5000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 7.24331083511
+	epoch done in 10.75 seconds
+
+epoch 2, learning rate 0.4167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.48454294434
+	epoch done in 10.75 seconds
+
+epoch 3, learning rate 0.3571
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36113632502
+	epoch done in 10.75 seconds
+
+epoch 4, learning rate 0.3125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.28223734122
+	epoch done in 10.77 seconds
+
+epoch 5, learning rate 0.2778
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.20133651641
+	epoch done in 10.74 seconds
+
+epoch 6, learning rate 0.2500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.16447078802
+	epoch done in 10.75 seconds
+
+epoch 7, learning rate 0.2273
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13773872501
+	epoch done in 10.75 seconds
+
+epoch 8, learning rate 0.2083
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12897150537
+	epoch done in 10.75 seconds
+
+epoch 9, learning rate 0.1923
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.10118367472
+	epoch done in 10.76 seconds
+
+epoch 10, learning rate 0.1786
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.08893573048
+	epoch done in 10.75 seconds
+
+epoch 11, learning rate 0.1667
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.07927567826
+	epoch done in 10.75 seconds
+
+epoch 12, learning rate 0.1562
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.07231501083
+	epoch done in 10.75 seconds
+
+epoch 13, learning rate 0.1471
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.06453777766
+	epoch done in 10.74 seconds
+
+epoch 14, learning rate 0.1389
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.06060466831
+	epoch done in 10.75 seconds
+
+epoch 15, learning rate 0.1316
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0533734294
+	epoch done in 10.75 seconds
+
+epoch 16, learning rate 0.1250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04883403705
+	epoch done in 10.75 seconds
+
+epoch 17, learning rate 0.1190
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04461176815
+	epoch done in 10.75 seconds
+
+epoch 18, learning rate 0.1136
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0426505324
+	epoch done in 10.75 seconds
+
+epoch 19, learning rate 0.1087
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03781031774
+	epoch done in 10.75 seconds
+
+epoch 20, learning rate 0.1042
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03542430416
+	epoch done in 10.75 seconds
+
+epoch 21, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03189921143
+	epoch done in 10.77 seconds
+
+epoch 22, learning rate 0.0962
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0300242656
+	epoch done in 10.77 seconds
+
+epoch 23, learning rate 0.0926
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02707413067
+	epoch done in 10.75 seconds
+
+epoch 24, learning rate 0.0893
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02535699938
+	epoch done in 10.77 seconds
+
+epoch 25, learning rate 0.0862
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02286575318
+	epoch done in 10.77 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.02286575318, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.02286575318
+Unadjusted: 151.846
+Adjusted for missing vocab: 278.761
+Iteration:	2
+h_units:  	10
+l_rate:   	0.5
+look_back:	3
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 10
+Steps for back propagation: 3
+Initial learning rate set to 0.5, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.76989636156
+
+epoch 1, learning rate 0.5000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 7.14424278069
+	epoch done in 13.90 seconds
+
+epoch 2, learning rate 0.4167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.67969593385
+	epoch done in 13.99 seconds
+
+epoch 3, learning rate 0.3571
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.42805954112
+	epoch done in 13.93 seconds
+
+epoch 4, learning rate 0.3125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31673445405
+	epoch done in 13.98 seconds
+
+epoch 5, learning rate 0.2778
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23943608969
+	epoch done in 13.90 seconds
+
+epoch 6, learning rate 0.2500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.18527013508
+	epoch done in 13.92 seconds
+
+epoch 7, learning rate 0.2273
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15158600161
+	epoch done in 13.96 seconds
+
+epoch 8, learning rate 0.2083
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13080243487
+	epoch done in 13.89 seconds
+
+epoch 9, learning rate 0.1923
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.11060590598
+	epoch done in 13.91 seconds
+
+epoch 10, learning rate 0.1786
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.09805330725
+	epoch done in 13.88 seconds
+
+epoch 11, learning rate 0.1667
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.08676987389
+	epoch done in 13.84 seconds
+
+epoch 12, learning rate 0.1562
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.07837138989
+	epoch done in 13.85 seconds
+
+epoch 13, learning rate 0.1471
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.07135998661
+	epoch done in 13.86 seconds
+
+epoch 14, learning rate 0.1389
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0661498681
+	epoch done in 13.85 seconds
+
+epoch 15, learning rate 0.1316
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05994763184
+	epoch done in 13.86 seconds
+
+epoch 16, learning rate 0.1250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05429801794
+	epoch done in 13.87 seconds
+
+epoch 17, learning rate 0.1190
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05091849098
+	epoch done in 13.86 seconds
+
+epoch 18, learning rate 0.1136
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04557417821
+	epoch done in 13.88 seconds
+
+epoch 19, learning rate 0.1087
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04190597926
+	epoch done in 13.87 seconds
+
+epoch 20, learning rate 0.1042
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03814162348
+	epoch done in 13.88 seconds
+
+epoch 21, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03697771161
+	epoch done in 13.86 seconds
+
+epoch 22, learning rate 0.0962
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03238136474
+	epoch done in 13.87 seconds
+
+epoch 23, learning rate 0.0926
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02969472424
+	epoch done in 13.87 seconds
+
+epoch 24, learning rate 0.0893
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0272311188
+	epoch done in 13.87 seconds
+
+epoch 25, learning rate 0.0862
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02468607499
+	epoch done in 13.85 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.02468607499, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.02468607499
+Unadjusted: 152.122
+Adjusted for missing vocab: 279.366
+Iteration:	3
+h_units:  	10
+l_rate:   	0.5
+look_back:	10
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 10
+Steps for back propagation: 10
+Initial learning rate set to 0.5, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.86369108718
+
+epoch 1, learning rate 0.5000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.79772945027
+	epoch done in 18.94 seconds
+
+epoch 2, learning rate 0.4167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.38054241536
+	epoch done in 18.94 seconds
+
+epoch 3, learning rate 0.3571
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25801426339
+	epoch done in 18.91 seconds
+
+epoch 4, learning rate 0.3125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2196733073
+	epoch done in 18.94 seconds
+
+epoch 5, learning rate 0.2778
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.22295143115
+	epoch done in 18.94 seconds
+
+epoch 6, learning rate 0.2500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15034033019
+	epoch done in 18.95 seconds
+
+epoch 7, learning rate 0.2273
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1393919197
+	epoch done in 18.93 seconds
+
+epoch 8, learning rate 0.2083
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.09539696699
+	epoch done in 18.93 seconds
+
+epoch 9, learning rate 0.1923
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.08525942674
+	epoch done in 18.92 seconds
+
+epoch 10, learning rate 0.1786
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.07534461391
+	epoch done in 18.95 seconds
+
+epoch 11, learning rate 0.1667
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.06739842808
+	epoch done in 18.90 seconds
+
+epoch 12, learning rate 0.1562
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.06049609351
+	epoch done in 18.95 seconds
+
+epoch 13, learning rate 0.1471
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05473196699
+	epoch done in 18.92 seconds
+
+epoch 14, learning rate 0.1389
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04957627407
+	epoch done in 18.94 seconds
+
+epoch 15, learning rate 0.1316
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04694982872
+	epoch done in 19.30 seconds
+
+epoch 16, learning rate 0.1250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04106656818
+	epoch done in 19.30 seconds
+
+epoch 17, learning rate 0.1190
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03507111467
+	epoch done in 19.04 seconds
+
+epoch 18, learning rate 0.1136
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0312783722
+	epoch done in 18.95 seconds
+
+epoch 19, learning rate 0.1087
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02867419293
+	epoch done in 18.94 seconds
+
+epoch 20, learning rate 0.1042
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02463068894
+	epoch done in 18.97 seconds
+
+epoch 21, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02120406042
+	epoch done in 19.32 seconds
+
+epoch 22, learning rate 0.0962
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01932659281
+	epoch done in 19.39 seconds
+
+epoch 23, learning rate 0.0926
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01449378635
+	epoch done in 19.31 seconds
+
+epoch 24, learning rate 0.0893
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01241877577
+	epoch done in 19.34 seconds
+
+epoch 25, learning rate 0.0862
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00989081311
+	epoch done in 18.92 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.00989081311, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.00989081311
+Unadjusted: 149.888
+Adjusted for missing vocab: 274.489
+Iteration:	4
+h_units:  	10
+l_rate:   	0.1
+look_back:	0
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 10
+Steps for back propagation: 0
+Initial learning rate set to 0.1, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.64754395492
+
+epoch 1, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.07508813032
+	epoch done in 10.68 seconds
+
+epoch 2, learning rate 0.0833
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.75049485559
+	epoch done in 10.67 seconds
+
+epoch 3, learning rate 0.0714
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.64222409391
+	epoch done in 10.68 seconds
+
+epoch 4, learning rate 0.0625
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.57384853894
+	epoch done in 10.68 seconds
+
+epoch 5, learning rate 0.0556
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.5261197054
+	epoch done in 10.67 seconds
+
+epoch 6, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.48971862696
+	epoch done in 10.67 seconds
+
+epoch 7, learning rate 0.0455
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.45894295792
+	epoch done in 10.68 seconds
+
+epoch 8, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.43393335348
+	epoch done in 10.67 seconds
+
+epoch 9, learning rate 0.0385
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.41327913138
+	epoch done in 10.67 seconds
+
+epoch 10, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.39526178579
+	epoch done in 10.67 seconds
+
+epoch 11, learning rate 0.0333
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.37956776611
+	epoch done in 10.67 seconds
+
+epoch 12, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36552461005
+	epoch done in 10.73 seconds
+
+epoch 13, learning rate 0.0294
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.35289336467
+	epoch done in 10.69 seconds
+
+epoch 14, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34196374284
+	epoch done in 10.67 seconds
+
+epoch 15, learning rate 0.0263
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.33086960612
+	epoch done in 10.68 seconds
+
+epoch 16, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.3214148091
+	epoch done in 10.68 seconds
+
+epoch 17, learning rate 0.0238
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31234490283
+	epoch done in 10.68 seconds
+
+epoch 18, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30425416829
+	epoch done in 10.68 seconds
+
+epoch 19, learning rate 0.0217
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29603593423
+	epoch done in 10.68 seconds
+
+epoch 20, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.28877352637
+	epoch done in 10.68 seconds
+
+epoch 21, learning rate 0.0200
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2820606854
+	epoch done in 10.68 seconds
+
+epoch 22, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.27574952118
+	epoch done in 10.68 seconds
+
+epoch 23, learning rate 0.0185
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2694921924
+	epoch done in 10.67 seconds
+
+epoch 24, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.26382592544
+	epoch done in 10.68 seconds
+
+epoch 25, learning rate 0.0172
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25833157128
+	epoch done in 10.67 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.25833157128, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.25833157128
+Unadjusted: 192.161
+Adjusted for missing vocab: 368.950
+Iteration:	5
+h_units:  	10
+l_rate:   	0.1
+look_back:	3
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 10
+Steps for back propagation: 3
+Initial learning rate set to 0.1, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.81803336265
+
+epoch 1, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.29993373545
+	epoch done in 13.79 seconds
+
+epoch 2, learning rate 0.0833
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.8211421439
+	epoch done in 13.78 seconds
+
+epoch 3, learning rate 0.0714
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.66075158525
+	epoch done in 13.77 seconds
+
+epoch 4, learning rate 0.0625
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.5826039824
+	epoch done in 13.78 seconds
+
+epoch 5, learning rate 0.0556
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.53475703466
+	epoch done in 13.78 seconds
+
+epoch 6, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.4989242442
+	epoch done in 13.78 seconds
+
+epoch 7, learning rate 0.0455
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.46991523281
+	epoch done in 13.80 seconds
+
+epoch 8, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.44650425077
+	epoch done in 13.77 seconds
+
+epoch 9, learning rate 0.0385
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.42749006288
+	epoch done in 13.79 seconds
+
+epoch 10, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.41040709632
+	epoch done in 13.78 seconds
+
+epoch 11, learning rate 0.0333
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.39581542312
+	epoch done in 13.80 seconds
+
+epoch 12, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.38359369776
+	epoch done in 13.77 seconds
+
+epoch 13, learning rate 0.0294
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.37226767083
+	epoch done in 13.78 seconds
+
+epoch 14, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36240799305
+	epoch done in 13.78 seconds
+
+epoch 15, learning rate 0.0263
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.35460765426
+	epoch done in 13.78 seconds
+
+epoch 16, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34557001827
+	epoch done in 13.79 seconds
+
+epoch 17, learning rate 0.0238
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.3389287901
+	epoch done in 13.79 seconds
+
+epoch 18, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.33219052518
+	epoch done in 13.79 seconds
+
+epoch 19, learning rate 0.0217
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32532897531
+	epoch done in 13.78 seconds
+
+epoch 20, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31979502235
+	epoch done in 13.80 seconds
+
+epoch 21, learning rate 0.0200
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.3146545305
+	epoch done in 13.78 seconds
+
+epoch 22, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30940243297
+	epoch done in 13.80 seconds
+
+epoch 23, learning rate 0.0185
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30430063981
+	epoch done in 13.80 seconds
+
+epoch 24, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29975030472
+	epoch done in 13.79 seconds
+
+epoch 25, learning rate 0.0172
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29535965868
+	epoch done in 13.77 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.29535965868, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.29535965868
+Unadjusted: 199.409
+Adjusted for missing vocab: 385.577
+Iteration:	6
+h_units:  	10
+l_rate:   	0.1
+look_back:	10
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 10
+Steps for back propagation: 10
+Initial learning rate set to 0.1, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.65079253882
+
+epoch 1, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.17390189758
+	epoch done in 18.93 seconds
+
+epoch 2, learning rate 0.0833
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.74942866801
+	epoch done in 18.94 seconds
+
+epoch 3, learning rate 0.0714
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.62867756645
+	epoch done in 19.00 seconds
+
+epoch 4, learning rate 0.0625
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.56205811699
+	epoch done in 18.95 seconds
+
+epoch 5, learning rate 0.0556
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.5164007612
+	epoch done in 18.96 seconds
+
+epoch 6, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.47945915451
+	epoch done in 19.03 seconds
+
+epoch 7, learning rate 0.0455
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.45116065337
+	epoch done in 19.10 seconds
+
+epoch 8, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.42850358133
+	epoch done in 19.01 seconds
+
+epoch 9, learning rate 0.0385
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.40950353663
+	epoch done in 19.05 seconds
+
+epoch 10, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.39547287314
+	epoch done in 19.03 seconds
+
+epoch 11, learning rate 0.0333
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.38074603398
+	epoch done in 19.01 seconds
+
+epoch 12, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36872483011
+	epoch done in 19.08 seconds
+
+epoch 13, learning rate 0.0294
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.35846485656
+	epoch done in 19.00 seconds
+
+epoch 14, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34920579483
+	epoch done in 19.08 seconds
+
+epoch 15, learning rate 0.0263
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34156357935
+	epoch done in 19.07 seconds
+
+epoch 16, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.33387341348
+	epoch done in 19.03 seconds
+
+epoch 17, learning rate 0.0238
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32671626605
+	epoch done in 19.04 seconds
+
+epoch 18, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.3203933892
+	epoch done in 19.02 seconds
+
+epoch 19, learning rate 0.0217
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31452374571
+	epoch done in 19.04 seconds
+
+epoch 20, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30923233027
+	epoch done in 19.07 seconds
+
+epoch 21, learning rate 0.0200
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.3045462203
+	epoch done in 19.00 seconds
+
+epoch 22, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29948506958
+	epoch done in 19.05 seconds
+
+epoch 23, learning rate 0.0185
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29491141756
+	epoch done in 19.00 seconds
+
+epoch 24, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29095238785
+	epoch done in 19.09 seconds
+
+epoch 25, learning rate 0.0172
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.28701524129
+	epoch done in 19.03 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.28701524129, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.28701524129
+Unadjusted: 197.752
+Adjusted for missing vocab: 381.766
+Iteration:	7
+h_units:  	10
+l_rate:   	0.05
+look_back:	0
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 10
+Steps for back propagation: 0
+Initial learning rate set to 0.05, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.62796408848
+
+epoch 1, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.43588713141
+	epoch done in 10.85 seconds
+
+epoch 2, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.05218501191
+	epoch done in 10.91 seconds
+
+epoch 3, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.82609383826
+	epoch done in 10.89 seconds
+
+epoch 4, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.73523302536
+	epoch done in 10.89 seconds
+
+epoch 5, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.68607598603
+	epoch done in 10.89 seconds
+
+epoch 6, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.64938956287
+	epoch done in 10.89 seconds
+
+epoch 7, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.62074419758
+	epoch done in 10.97 seconds
+
+epoch 8, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.59802855918
+	epoch done in 10.77 seconds
+
+epoch 9, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.57928581831
+	epoch done in 10.67 seconds
+
+epoch 10, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.56274010631
+	epoch done in 10.67 seconds
+
+epoch 11, learning rate 0.0167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.54824728911
+	epoch done in 10.67 seconds
+
+epoch 12, learning rate 0.0156
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.53595060134
+	epoch done in 10.67 seconds
+
+epoch 13, learning rate 0.0147
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.52415486228
+	epoch done in 10.66 seconds
+
+epoch 14, learning rate 0.0139
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.51422966253
+	epoch done in 10.68 seconds
+
+epoch 15, learning rate 0.0132
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.50458404757
+	epoch done in 10.68 seconds
+
+epoch 16, learning rate 0.0125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.49619318008
+	epoch done in 10.67 seconds
+
+epoch 17, learning rate 0.0119
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.48832541269
+	epoch done in 10.68 seconds
+
+epoch 18, learning rate 0.0114
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.48107834555
+	epoch done in 10.67 seconds
+
+epoch 19, learning rate 0.0109
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.47396878033
+	epoch done in 10.67 seconds
+
+epoch 20, learning rate 0.0104
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.46757720927
+	epoch done in 10.68 seconds
+
+epoch 21, learning rate 0.0100
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.46158181873
+	epoch done in 10.67 seconds
+
+epoch 22, learning rate 0.0096
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.45609154703
+	epoch done in 10.68 seconds
+
+epoch 23, learning rate 0.0093
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.45077238717
+	epoch done in 10.68 seconds
+
+epoch 24, learning rate 0.0089
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.44594518701
+	epoch done in 10.67 seconds
+
+epoch 25, learning rate 0.0086
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.44126171074
+	epoch done in 10.67 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.44126171074, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.44126171074
+Unadjusted: 230.733
+Adjusted for missing vocab: 458.714
+Iteration:	8
+h_units:  	10
+l_rate:   	0.05
+look_back:	3
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 10
+Steps for back propagation: 3
+Initial learning rate set to 0.05, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.72359975797
+
+epoch 1, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.75073536101
+	epoch done in 13.78 seconds
+
+epoch 2, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.26629955526
+	epoch done in 13.78 seconds
+
+epoch 3, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.03733234139
+	epoch done in 13.78 seconds
+
+epoch 4, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.89724319213
+	epoch done in 13.86 seconds
+
+epoch 5, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.81618348133
+	epoch done in 14.07 seconds
+
+epoch 6, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.75947973735
+	epoch done in 14.03 seconds
+
+epoch 7, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.71593251478
+	epoch done in 14.09 seconds
+
+epoch 8, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.68146635778
+	epoch done in 14.03 seconds
+
+epoch 9, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.6538030957
+	epoch done in 13.97 seconds
+
+epoch 10, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.63137130553
+	epoch done in 13.78 seconds
+
+epoch 11, learning rate 0.0167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.611961471
+	epoch done in 13.78 seconds
+
+epoch 12, learning rate 0.0156
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.59569299671
+	epoch done in 13.78 seconds
+
+epoch 13, learning rate 0.0147
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.58076760504
+	epoch done in 13.78 seconds
+
+epoch 14, learning rate 0.0139
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.56814475258
+	epoch done in 13.78 seconds
+
+epoch 15, learning rate 0.0132
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.55617483064
+	epoch done in 13.77 seconds
+
+epoch 16, learning rate 0.0125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.54532441583
+	epoch done in 13.77 seconds
+
+epoch 17, learning rate 0.0119
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.53538174906
+	epoch done in 13.86 seconds
+
+epoch 18, learning rate 0.0114
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.52615524969
+	epoch done in 14.12 seconds
+
+epoch 19, learning rate 0.0109
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.51767790233
+	epoch done in 14.06 seconds
+
+epoch 20, learning rate 0.0104
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.5098541591
+	epoch done in 14.07 seconds
+
+epoch 21, learning rate 0.0100
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.50240102412
+	epoch done in 14.06 seconds
+
+epoch 22, learning rate 0.0096
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.49546604182
+	epoch done in 14.06 seconds
+
+epoch 23, learning rate 0.0093
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.48894587818
+	epoch done in 13.83 seconds
+
+epoch 24, learning rate 0.0089
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.48265990705
+	epoch done in 13.76 seconds
+
+epoch 25, learning rate 0.0086
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.47692990281
+	epoch done in 13.78 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.47692990281, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.47692990281
+Unadjusted: 239.111
+Adjusted for missing vocab: 478.610
+Iteration:	9
+h_units:  	10
+l_rate:   	0.05
+look_back:	10
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 10
+Steps for back propagation: 10
+Initial learning rate set to 0.05, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.71693582708
+
+epoch 1, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.5405490251
+	epoch done in 18.94 seconds
+
+epoch 2, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.16113970186
+	epoch done in 18.92 seconds
+
+epoch 3, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.91489820918
+	epoch done in 19.04 seconds
+
+epoch 4, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.80324828716
+	epoch done in 18.89 seconds
+
+epoch 5, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.73844961641
+	epoch done in 19.01 seconds
+
+epoch 6, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.68956134453
+	epoch done in 18.96 seconds
+
+epoch 7, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.65154233009
+	epoch done in 18.97 seconds
+
+epoch 8, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.62142694517
+	epoch done in 19.01 seconds
+
+epoch 9, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.59688598238
+	epoch done in 18.94 seconds
+
+epoch 10, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.57699861802
+	epoch done in 19.00 seconds
+
+epoch 11, learning rate 0.0167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.5596513701
+	epoch done in 18.94 seconds
+
+epoch 12, learning rate 0.0156
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.54512443076
+	epoch done in 18.98 seconds
+
+epoch 13, learning rate 0.0147
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.53227708367
+	epoch done in 18.98 seconds
+
+epoch 14, learning rate 0.0139
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.52061830577
+	epoch done in 19.04 seconds
+
+epoch 15, learning rate 0.0132
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.51035975695
+	epoch done in 18.95 seconds
+
+epoch 16, learning rate 0.0125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.50098319009
+	epoch done in 19.01 seconds
+
+epoch 17, learning rate 0.0119
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.49244710795
+	epoch done in 18.97 seconds
+
+epoch 18, learning rate 0.0114
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.48442099365
+	epoch done in 19.03 seconds
+
+epoch 19, learning rate 0.0109
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.47721650968
+	epoch done in 19.00 seconds
+
+epoch 20, learning rate 0.0104
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.47037530017
+	epoch done in 18.96 seconds
+
+epoch 21, learning rate 0.0100
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.46380023986
+	epoch done in 18.96 seconds
+
+epoch 22, learning rate 0.0096
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.45788676646
+	epoch done in 18.94 seconds
+
+epoch 23, learning rate 0.0093
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.4522217586
+	epoch done in 19.07 seconds
+
+epoch 24, learning rate 0.0089
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.44692773884
+	epoch done in 19.05 seconds
+
+epoch 25, learning rate 0.0086
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.44190973146
+	epoch done in 18.92 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.44190973146, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.44190973146
+Unadjusted: 230.883
+Adjusted for missing vocab: 459.068
+Iteration:	10
+h_units:  	50
+l_rate:   	0.5
+look_back:	0
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 50
+Steps for back propagation: 0
+Initial learning rate set to 0.5, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.96619966913
+
+epoch 1, learning rate 0.5000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 9.96982605399
+	epoch done in 17.40 seconds
+
+epoch 2, learning rate 0.4167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.55227289681
+	epoch done in 17.39 seconds
+
+epoch 3, learning rate 0.3571
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.47352891615
+	epoch done in 17.34 seconds
+
+epoch 4, learning rate 0.3125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.42096526405
+	epoch done in 17.38 seconds
+
+epoch 5, learning rate 0.2778
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.94409571191
+	epoch done in 17.36 seconds
+
+epoch 6, learning rate 0.2500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.49963663367
+	epoch done in 17.35 seconds
+
+epoch 7, learning rate 0.2273
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30626704034
+	epoch done in 17.48 seconds
+
+epoch 8, learning rate 0.2083
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23194172264
+	epoch done in 17.36 seconds
+
+epoch 9, learning rate 0.1923
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23278288931
+	epoch done in 17.39 seconds
+
+epoch 10, learning rate 0.1786
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15792857269
+	epoch done in 17.45 seconds
+
+epoch 11, learning rate 0.1667
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12338993453
+	epoch done in 17.36 seconds
+
+epoch 12, learning rate 0.1562
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.09544790602
+	epoch done in 17.46 seconds
+
+epoch 13, learning rate 0.1471
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.09814787752
+	epoch done in 17.40 seconds
+
+epoch 14, learning rate 0.1389
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05525022974
+	epoch done in 17.40 seconds
+
+epoch 15, learning rate 0.1316
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05203306812
+	epoch done in 17.37 seconds
+
+epoch 16, learning rate 0.1250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04571041165
+	epoch done in 17.38 seconds
+
+epoch 17, learning rate 0.1190
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05766482282
+	epoch done in 17.37 seconds
+
+epoch 18, learning rate 0.1136
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02944045288
+	epoch done in 17.35 seconds
+
+epoch 19, learning rate 0.1087
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02219962346
+	epoch done in 17.37 seconds
+
+epoch 20, learning rate 0.1042
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03665379617
+	epoch done in 17.35 seconds
+
+epoch 21, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03816212629
+	epoch done in 17.38 seconds
+
+epoch 22, learning rate 0.0962
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01733623433
+	epoch done in 17.35 seconds
+
+epoch 23, learning rate 0.0926
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01470458669
+	epoch done in 17.36 seconds
+
+epoch 24, learning rate 0.0893
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00614148031
+	epoch done in 17.48 seconds
+
+epoch 25, learning rate 0.0862
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00172595001
+	epoch done in 17.37 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.00172595001, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.00172595001
+Unadjusted: 148.670
+Adjusted for missing vocab: 271.834
+Iteration:	11
+h_units:  	50
+l_rate:   	0.5
+look_back:	3
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 50
+Steps for back propagation: 3
+Initial learning rate set to 0.5, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.99035252053
+
+epoch 1, learning rate 0.5000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 7.20969390428
+	epoch done in 27.74 seconds
+
+epoch 2, learning rate 0.4167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.65586809321
+	epoch done in 27.80 seconds
+
+epoch 3, learning rate 0.3571
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.50996843596
+	epoch done in 27.69 seconds
+
+epoch 4, learning rate 0.3125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.63796505379
+	epoch done in 27.54 seconds
+
+epoch 5, learning rate 0.2778
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.53840313827
+	epoch done in 27.54 seconds
+
+epoch 6, learning rate 0.2500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30846315693
+	epoch done in 28.17 seconds
+
+epoch 7, learning rate 0.2273
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23002312799
+	epoch done in 27.77 seconds
+
+epoch 8, learning rate 0.2083
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.19023966439
+	epoch done in 27.72 seconds
+
+epoch 9, learning rate 0.1923
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.19181121657
+	epoch done in 28.27 seconds
+
+epoch 10, learning rate 0.1786
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13891603259
+	epoch done in 28.30 seconds
+
+epoch 11, learning rate 0.1667
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12319831059
+	epoch done in 28.03 seconds
+
+epoch 12, learning rate 0.1562
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.11007407455
+	epoch done in 27.68 seconds
+
+epoch 13, learning rate 0.1471
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.09923740365
+	epoch done in 27.60 seconds
+
+epoch 14, learning rate 0.1389
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.09037873529
+	epoch done in 27.74 seconds
+
+epoch 15, learning rate 0.1316
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.08393881271
+	epoch done in 27.61 seconds
+
+epoch 16, learning rate 0.1250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.07295030388
+	epoch done in 27.66 seconds
+
+epoch 17, learning rate 0.1190
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.06438849912
+	epoch done in 28.25 seconds
+
+epoch 18, learning rate 0.1136
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05774795196
+	epoch done in 27.72 seconds
+
+epoch 19, learning rate 0.1087
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05114377549
+	epoch done in 27.65 seconds
+
+epoch 20, learning rate 0.1042
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04534086587
+	epoch done in 27.62 seconds
+
+epoch 21, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04185733731
+	epoch done in 27.76 seconds
+
+epoch 22, learning rate 0.0962
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03366120382
+	epoch done in 27.72 seconds
+
+epoch 23, learning rate 0.0926
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02853393662
+	epoch done in 27.74 seconds
+
+epoch 24, learning rate 0.0893
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02469938472
+	epoch done in 27.70 seconds
+
+epoch 25, learning rate 0.0862
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02008235278
+	epoch done in 27.71 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.02008235278, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.02008235278
+Unadjusted: 151.424
+Adjusted for missing vocab: 277.839
+Iteration:	12
+h_units:  	50
+l_rate:   	0.5
+look_back:	10
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 50
+Steps for back propagation: 10
+Initial learning rate set to 0.5, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 8.18903966516
+
+epoch 1, learning rate 0.5000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.78529664956
+	epoch done in 45.24 seconds
+
+epoch 2, learning rate 0.4167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.63834102165
+	epoch done in 44.97 seconds
+
+epoch 3, learning rate 0.3571
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.66112062182
+	epoch done in 45.20 seconds
+
+epoch 4, learning rate 0.3125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.37575133979
+	epoch done in 45.19 seconds
+
+epoch 5, learning rate 0.2778
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.26342385701
+	epoch done in 45.02 seconds
+
+epoch 6, learning rate 0.2500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25170396138
+	epoch done in 44.95 seconds
+
+epoch 7, learning rate 0.2273
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.18867711664
+	epoch done in 45.26 seconds
+
+epoch 8, learning rate 0.2083
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15888790825
+	epoch done in 46.03 seconds
+
+epoch 9, learning rate 0.1923
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14703767749
+	epoch done in 45.40 seconds
+
+epoch 10, learning rate 0.1786
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.11344634085
+	epoch done in 45.10 seconds
+
+epoch 11, learning rate 0.1667
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.09835238698
+	epoch done in 44.91 seconds
+
+epoch 12, learning rate 0.1562
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0954763329
+	epoch done in 45.15 seconds
+
+epoch 13, learning rate 0.1471
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.07252737617
+	epoch done in 45.85 seconds
+
+epoch 14, learning rate 0.1389
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.06322346133
+	epoch done in 45.09 seconds
+
+epoch 15, learning rate 0.1316
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05159751776
+	epoch done in 44.89 seconds
+
+epoch 16, learning rate 0.1250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04157584048
+	epoch done in 45.03 seconds
+
+epoch 17, learning rate 0.1190
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03403403038
+	epoch done in 44.94 seconds
+
+epoch 18, learning rate 0.1136
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02604163533
+	epoch done in 45.08 seconds
+
+epoch 19, learning rate 0.1087
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01935498015
+	epoch done in 44.96 seconds
+
+epoch 20, learning rate 0.1042
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01477370001
+	epoch done in 45.34 seconds
+
+epoch 21, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01020347194
+	epoch done in 45.83 seconds
+
+epoch 22, learning rate 0.0962
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00893827054
+	epoch done in 45.08 seconds
+
+epoch 23, learning rate 0.0926
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00446313313
+	epoch done in 44.98 seconds
+
+epoch 24, learning rate 0.0893
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00196995854
+	epoch done in 45.14 seconds
+
+epoch 25, learning rate 0.0862
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00032202721
+	epoch done in 45.01 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.00032202721, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.00032202721
+Unadjusted: 148.461
+Adjusted for missing vocab: 271.380
+Iteration:	13
+h_units:  	50
+l_rate:   	0.1
+look_back:	0
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 50
+Steps for back propagation: 0
+Initial learning rate set to 0.1, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 8.47546786592
+
+epoch 1, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.85578701147
+	epoch done in 17.45 seconds
+
+epoch 2, learning rate 0.0833
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.65558553119
+	epoch done in 17.40 seconds
+
+epoch 3, learning rate 0.0714
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.50241308277
+	epoch done in 17.45 seconds
+
+epoch 4, learning rate 0.0625
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.42874688126
+	epoch done in 17.42 seconds
+
+epoch 5, learning rate 0.0556
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.37347520172
+	epoch done in 17.43 seconds
+
+epoch 6, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34004238192
+	epoch done in 17.58 seconds
+
+epoch 7, learning rate 0.0455
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.3079889008
+	epoch done in 17.81 seconds
+
+epoch 8, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.28236047016
+	epoch done in 17.49 seconds
+
+epoch 9, learning rate 0.0385
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.26209023315
+	epoch done in 17.41 seconds
+
+epoch 10, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.24323951308
+	epoch done in 17.47 seconds
+
+epoch 11, learning rate 0.0333
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.22858369115
+	epoch done in 17.42 seconds
+
+epoch 12, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.21438057379
+	epoch done in 17.41 seconds
+
+epoch 13, learning rate 0.0294
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.20300991637
+	epoch done in 17.42 seconds
+
+epoch 14, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.19240313767
+	epoch done in 17.47 seconds
+
+epoch 15, learning rate 0.0263
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.18326930084
+	epoch done in 17.41 seconds
+
+epoch 16, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.17562382809
+	epoch done in 17.40 seconds
+
+epoch 17, learning rate 0.0238
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.16934697965
+	epoch done in 17.41 seconds
+
+epoch 18, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.16171610923
+	epoch done in 17.47 seconds
+
+epoch 19, learning rate 0.0217
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15562958174
+	epoch done in 17.40 seconds
+
+epoch 20, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15047389204
+	epoch done in 17.48 seconds
+
+epoch 21, learning rate 0.0200
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14566789396
+	epoch done in 17.45 seconds
+
+epoch 22, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14278802558
+	epoch done in 17.40 seconds
+
+epoch 23, learning rate 0.0185
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13677631222
+	epoch done in 17.42 seconds
+
+epoch 24, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13377397711
+	epoch done in 17.41 seconds
+
+epoch 25, learning rate 0.0172
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13006184163
+	epoch done in 17.40 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.13006184163, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.13006184163
+Unadjusted: 169.028
+Adjusted for missing vocab: 316.703
+Iteration:	14
+h_units:  	50
+l_rate:   	0.1
+look_back:	3
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 50
+Steps for back propagation: 3
+Initial learning rate set to 0.1, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 8.72969274772
+
+epoch 1, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.85465171089
+	epoch done in 27.51 seconds
+
+epoch 2, learning rate 0.0833
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.58577432978
+	epoch done in 27.51 seconds
+
+epoch 3, learning rate 0.0714
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.52236347639
+	epoch done in 27.58 seconds
+
+epoch 4, learning rate 0.0625
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.41784620487
+	epoch done in 27.59 seconds
+
+epoch 5, learning rate 0.0556
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36378776698
+	epoch done in 27.60 seconds
+
+epoch 6, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32643047631
+	epoch done in 27.59 seconds
+
+epoch 7, learning rate 0.0455
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2956680613
+	epoch done in 27.56 seconds
+
+epoch 8, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.27255278267
+	epoch done in 27.54 seconds
+
+epoch 9, learning rate 0.0385
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25156049422
+	epoch done in 27.53 seconds
+
+epoch 10, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23581771433
+	epoch done in 27.58 seconds
+
+epoch 11, learning rate 0.0333
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.22119649118
+	epoch done in 27.54 seconds
+
+epoch 12, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.20874051586
+	epoch done in 27.55 seconds
+
+epoch 13, learning rate 0.0294
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.19764347164
+	epoch done in 27.61 seconds
+
+epoch 14, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.18851452109
+	epoch done in 27.64 seconds
+
+epoch 15, learning rate 0.0263
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.17989014636
+	epoch done in 27.56 seconds
+
+epoch 16, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1727443204
+	epoch done in 27.65 seconds
+
+epoch 17, learning rate 0.0238
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.16607076304
+	epoch done in 27.58 seconds
+
+epoch 18, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1606854659
+	epoch done in 27.64 seconds
+
+epoch 19, learning rate 0.0217
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15486100872
+	epoch done in 27.64 seconds
+
+epoch 20, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14968576854
+	epoch done in 27.60 seconds
+
+epoch 21, learning rate 0.0200
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14577316382
+	epoch done in 27.58 seconds
+
+epoch 22, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14116635512
+	epoch done in 27.56 seconds
+
+epoch 23, learning rate 0.0185
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13737646204
+	epoch done in 27.80 seconds
+
+epoch 24, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13409769524
+	epoch done in 27.55 seconds
+
+epoch 25, learning rate 0.0172
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13060043294
+	epoch done in 27.63 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.13060043294, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.13060043294
+Unadjusted: 169.119
+Adjusted for missing vocab: 316.906
+Iteration:	15
+h_units:  	50
+l_rate:   	0.1
+look_back:	10
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 50
+Steps for back propagation: 10
+Initial learning rate set to 0.1, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 8.47971608811
+
+epoch 1, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.89909818108
+	epoch done in 44.80 seconds
+
+epoch 2, learning rate 0.0833
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.5909436687
+	epoch done in 44.88 seconds
+
+epoch 3, learning rate 0.0714
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.4959714218
+	epoch done in 44.90 seconds
+
+epoch 4, learning rate 0.0625
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.43635358204
+	epoch done in 44.88 seconds
+
+epoch 5, learning rate 0.0556
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.37475308895
+	epoch done in 44.88 seconds
+
+epoch 6, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.33639773843
+	epoch done in 44.83 seconds
+
+epoch 7, learning rate 0.0455
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30611509917
+	epoch done in 44.91 seconds
+
+epoch 8, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.27959094756
+	epoch done in 44.82 seconds
+
+epoch 9, learning rate 0.0385
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25804312213
+	epoch done in 44.86 seconds
+
+epoch 10, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23819918268
+	epoch done in 44.87 seconds
+
+epoch 11, learning rate 0.0333
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.22247718645
+	epoch done in 44.90 seconds
+
+epoch 12, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2084716343
+	epoch done in 44.91 seconds
+
+epoch 13, learning rate 0.0294
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.19653084421
+	epoch done in 45.73 seconds
+
+epoch 14, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.18595772024
+	epoch done in 45.51 seconds
+
+epoch 15, learning rate 0.0263
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1766049209
+	epoch done in 44.84 seconds
+
+epoch 16, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1682979388
+	epoch done in 44.82 seconds
+
+epoch 17, learning rate 0.0238
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.16055625361
+	epoch done in 44.83 seconds
+
+epoch 18, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15577424138
+	epoch done in 44.81 seconds
+
+epoch 19, learning rate 0.0217
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14854108863
+	epoch done in 44.91 seconds
+
+epoch 20, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14249100655
+	epoch done in 44.91 seconds
+
+epoch 21, learning rate 0.0200
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13771331107
+	epoch done in 44.90 seconds
+
+epoch 22, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13268783717
+	epoch done in 45.47 seconds
+
+epoch 23, learning rate 0.0185
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12861405888
+	epoch done in 45.14 seconds
+
+epoch 24, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12472119366
+	epoch done in 44.92 seconds
+
+epoch 25, learning rate 0.0172
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12122883681
+	epoch done in 44.85 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.12122883681, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.12122883681
+Unadjusted: 167.541
+Adjusted for missing vocab: 313.390
+Iteration:	16
+h_units:  	50
+l_rate:   	0.05
+look_back:	0
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 50
+Steps for back propagation: 0
+Initial learning rate set to 0.05, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 8.27178193448
+
+epoch 1, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.12515974779
+	epoch done in 17.40 seconds
+
+epoch 2, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.83930725163
+	epoch done in 17.42 seconds
+
+epoch 3, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.69433833846
+	epoch done in 17.43 seconds
+
+epoch 4, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.61686133628
+	epoch done in 17.37 seconds
+
+epoch 5, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.56762336644
+	epoch done in 17.41 seconds
+
+epoch 6, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.53070370589
+	epoch done in 17.37 seconds
+
+epoch 7, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.5018238727
+	epoch done in 17.42 seconds
+
+epoch 8, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.47634982198
+	epoch done in 17.38 seconds
+
+epoch 9, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.45589135434
+	epoch done in 17.39 seconds
+
+epoch 10, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.43847624702
+	epoch done in 17.36 seconds
+
+epoch 11, learning rate 0.0167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.42327863993
+	epoch done in 17.40 seconds
+
+epoch 12, learning rate 0.0156
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.40986579188
+	epoch done in 17.37 seconds
+
+epoch 13, learning rate 0.0147
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.39915841547
+	epoch done in 17.42 seconds
+
+epoch 14, learning rate 0.0139
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.38760249045
+	epoch done in 17.37 seconds
+
+epoch 15, learning rate 0.0132
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.37793890032
+	epoch done in 17.41 seconds
+
+epoch 16, learning rate 0.0125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36929163106
+	epoch done in 17.36 seconds
+
+epoch 17, learning rate 0.0119
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36194717638
+	epoch done in 17.41 seconds
+
+epoch 18, learning rate 0.0114
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.35368948462
+	epoch done in 17.36 seconds
+
+epoch 19, learning rate 0.0109
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34668542791
+	epoch done in 17.41 seconds
+
+epoch 20, learning rate 0.0104
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34044323817
+	epoch done in 17.41 seconds
+
+epoch 21, learning rate 0.0100
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.33501634323
+	epoch done in 17.36 seconds
+
+epoch 22, learning rate 0.0096
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.3289327128
+	epoch done in 17.37 seconds
+
+epoch 23, learning rate 0.0093
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32396801323
+	epoch done in 17.42 seconds
+
+epoch 24, learning rate 0.0089
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31873744555
+	epoch done in 17.42 seconds
+
+epoch 25, learning rate 0.0086
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31443984858
+	epoch done in 17.42 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.31443984858, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.31443984858
+Unadjusted: 203.251
+Adjusted for missing vocab: 394.435
+Iteration:	17
+h_units:  	50
+l_rate:   	0.05
+look_back:	3
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 50
+Steps for back propagation: 3
+Initial learning rate set to 0.05, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 7.9530534637
+
+epoch 1, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.09395603199
+	epoch done in 27.64 seconds
+
+epoch 2, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.81514135418
+	epoch done in 27.82 seconds
+
+epoch 3, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.69856192299
+	epoch done in 28.19 seconds
+
+epoch 4, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.63063337671
+	epoch done in 27.57 seconds
+
+epoch 5, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.581526584
+	epoch done in 27.57 seconds
+
+epoch 6, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.54250623824
+	epoch done in 27.65 seconds
+
+epoch 7, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.51061338201
+	epoch done in 27.57 seconds
+
+epoch 8, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.48431323105
+	epoch done in 27.61 seconds
+
+epoch 9, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.46236984179
+	epoch done in 27.56 seconds
+
+epoch 10, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.44372591746
+	epoch done in 27.60 seconds
+
+epoch 11, learning rate 0.0167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.42672260556
+	epoch done in 27.58 seconds
+
+epoch 12, learning rate 0.0156
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.41213722056
+	epoch done in 27.63 seconds
+
+epoch 13, learning rate 0.0147
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.39964875565
+	epoch done in 27.58 seconds
+
+epoch 14, learning rate 0.0139
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.38725852514
+	epoch done in 27.56 seconds
+
+epoch 15, learning rate 0.0132
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.37689098672
+	epoch done in 27.57 seconds
+
+epoch 16, learning rate 0.0125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36708856265
+	epoch done in 27.58 seconds
+
+epoch 17, learning rate 0.0119
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.3583302482
+	epoch done in 27.57 seconds
+
+epoch 18, learning rate 0.0114
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.35040864552
+	epoch done in 27.59 seconds
+
+epoch 19, learning rate 0.0109
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34234414522
+	epoch done in 27.60 seconds
+
+epoch 20, learning rate 0.0104
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.33540025592
+	epoch done in 27.60 seconds
+
+epoch 21, learning rate 0.0100
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32874005004
+	epoch done in 27.55 seconds
+
+epoch 22, learning rate 0.0096
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32267719685
+	epoch done in 27.58 seconds
+
+epoch 23, learning rate 0.0093
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31697727074
+	epoch done in 27.57 seconds
+
+epoch 24, learning rate 0.0089
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31147664665
+	epoch done in 27.57 seconds
+
+epoch 25, learning rate 0.0086
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30661870373
+	epoch done in 27.61 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.30661870373, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.30661870373
+Unadjusted: 201.667
+Adjusted for missing vocab: 390.779
+Iteration:	18
+h_units:  	50
+l_rate:   	0.05
+look_back:	10
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 50
+Steps for back propagation: 10
+Initial learning rate set to 0.05, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 8.20135722744
+
+epoch 1, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.11481655777
+	epoch done in 44.95 seconds
+
+epoch 2, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.8300306714
+	epoch done in 45.03 seconds
+
+epoch 3, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.70502878013
+	epoch done in 44.94 seconds
+
+epoch 4, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.6258944644
+	epoch done in 44.99 seconds
+
+epoch 5, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.57012040048
+	epoch done in 45.00 seconds
+
+epoch 6, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.53002788715
+	epoch done in 44.93 seconds
+
+epoch 7, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.4953921308
+	epoch done in 45.26 seconds
+
+epoch 8, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.46775369167
+	epoch done in 44.97 seconds
+
+epoch 9, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.44515143222
+	epoch done in 45.02 seconds
+
+epoch 10, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.4255491137
+	epoch done in 44.94 seconds
+
+epoch 11, learning rate 0.0167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.40950046745
+	epoch done in 44.87 seconds
+
+epoch 12, learning rate 0.0156
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.39413791929
+	epoch done in 44.97 seconds
+
+epoch 13, learning rate 0.0147
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.381495911
+	epoch done in 44.94 seconds
+
+epoch 14, learning rate 0.0139
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.37014764337
+	epoch done in 45.06 seconds
+
+epoch 15, learning rate 0.0132
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.35929650476
+	epoch done in 45.10 seconds
+
+epoch 16, learning rate 0.0125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.35074688426
+	epoch done in 45.49 seconds
+
+epoch 17, learning rate 0.0119
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34160810838
+	epoch done in 45.00 seconds
+
+epoch 18, learning rate 0.0114
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.33332958005
+	epoch done in 44.94 seconds
+
+epoch 19, learning rate 0.0109
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32615706442
+	epoch done in 45.03 seconds
+
+epoch 20, learning rate 0.0104
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.3197511045
+	epoch done in 44.98 seconds
+
+epoch 21, learning rate 0.0100
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31251741308
+	epoch done in 45.06 seconds
+
+epoch 22, learning rate 0.0096
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30626762514
+	epoch done in 44.97 seconds
+
+epoch 23, learning rate 0.0093
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30069618053
+	epoch done in 45.02 seconds
+
+epoch 24, learning rate 0.0089
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29549434463
+	epoch done in 45.23 seconds
+
+epoch 25, learning rate 0.0086
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2904146956
+	epoch done in 45.20 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.2904146956, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.2904146956
+Unadjusted: 198.426
+Adjusted for missing vocab: 383.314
+Iteration:	19
+h_units:  	100
+l_rate:   	0.5
+look_back:	0
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 100
+Steps for back propagation: 0
+Initial learning rate set to 0.5, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 8.82521091855
+
+epoch 1, learning rate 0.5000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 12.8842742961
+	epoch done in 28.90 seconds
+
+epoch 2, learning rate 0.4167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 9.55305204637
+	epoch done in 29.63 seconds
+
+epoch 3, learning rate 0.3571
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 8.98244477261
+	epoch done in 29.42 seconds
+
+epoch 4, learning rate 0.3125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.73897619586
+	epoch done in 29.22 seconds
+
+epoch 5, learning rate 0.2778
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 8.34649401742
+	epoch done in 28.85 seconds
+
+epoch 6, learning rate 0.2500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 7.19311789867
+	epoch done in 28.87 seconds
+
+epoch 7, learning rate 0.2273
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 7.01753636224
+	epoch done in 29.15 seconds
+
+epoch 8, learning rate 0.2083
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.39508115085
+	epoch done in 29.28 seconds
+
+epoch 9, learning rate 0.1923
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.83755124448
+	epoch done in 28.71 seconds
+
+epoch 10, learning rate 0.1786
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.35957951943
+	epoch done in 28.86 seconds
+
+epoch 11, learning rate 0.1667
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.50844229703
+	epoch done in 28.72 seconds
+
+epoch 12, learning rate 0.1562
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.37012075066
+	epoch done in 28.65 seconds
+
+epoch 13, learning rate 0.1471
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.36837189867
+	epoch done in 28.64 seconds
+
+epoch 14, learning rate 0.1389
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.41820868462
+	epoch done in 29.15 seconds
+
+epoch 15, learning rate 0.1316
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.36537686441
+	epoch done in 29.30 seconds
+
+epoch 16, learning rate 0.1250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.35943867503
+	epoch done in 29.17 seconds
+
+epoch 17, learning rate 0.1190
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.07153804282
+	epoch done in 28.75 seconds
+
+epoch 18, learning rate 0.1136
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.00158962064
+	epoch done in 28.68 seconds
+
+epoch 19, learning rate 0.1087
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.82610810633
+	epoch done in 28.71 seconds
+
+epoch 20, learning rate 0.1042
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.7106445349
+	epoch done in 29.11 seconds
+
+epoch 21, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.66590170482
+	epoch done in 28.77 seconds
+
+epoch 22, learning rate 0.0962
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.45572896119
+	epoch done in 28.78 seconds
+
+epoch 23, learning rate 0.0926
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.38527579256
+	epoch done in 28.89 seconds
+
+epoch 24, learning rate 0.0893
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34961489091
+	epoch done in 28.70 seconds
+
+epoch 25, learning rate 0.0862
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31819477016
+	epoch done in 28.75 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.31819477016, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.31819477016
+Unadjusted: 204.015
+Adjusted for missing vocab: 396.202
+Iteration:	20
+h_units:  	100
+l_rate:   	0.5
+look_back:	3
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 100
+Steps for back propagation: 3
+Initial learning rate set to 0.5, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 10.4523459983
+
+epoch 1, learning rate 0.5000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 11.0281516433
+	epoch done in 48.64 seconds
+
+epoch 2, learning rate 0.4167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.71878034781
+	epoch done in 48.64 seconds
+
+epoch 3, learning rate 0.3571
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.49944402276
+	epoch done in 48.88 seconds
+
+epoch 4, learning rate 0.3125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.53061098904
+	epoch done in 48.37 seconds
+
+epoch 5, learning rate 0.2778
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.26477160157
+	epoch done in 48.27 seconds
+
+epoch 6, learning rate 0.2500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.21867037837
+	epoch done in 48.40 seconds
+
+epoch 7, learning rate 0.2273
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30250154746
+	epoch done in 48.19 seconds
+
+epoch 8, learning rate 0.2083
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12472159983
+	epoch done in 48.12 seconds
+
+epoch 9, learning rate 0.1923
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12929549706
+	epoch done in 48.30 seconds
+
+epoch 10, learning rate 0.1786
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.11300738788
+	epoch done in 48.39 seconds
+
+epoch 11, learning rate 0.1667
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04966590425
+	epoch done in 48.26 seconds
+
+epoch 12, learning rate 0.1562
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03768586844
+	epoch done in 48.28 seconds
+
+epoch 13, learning rate 0.1471
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03358719064
+	epoch done in 48.21 seconds
+
+epoch 14, learning rate 0.1389
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02920147407
+	epoch done in 48.41 seconds
+
+epoch 15, learning rate 0.1316
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02584827813
+	epoch done in 48.20 seconds
+
+epoch 16, learning rate 0.1250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02042153208
+	epoch done in 48.28 seconds
+
+epoch 17, learning rate 0.1190
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0162772902
+	epoch done in 48.59 seconds
+
+epoch 18, learning rate 0.1136
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02045578876
+	epoch done in 48.97 seconds
+
+epoch 19, learning rate 0.1087
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01838158252
+	epoch done in 48.26 seconds
+
+epoch 20, learning rate 0.1042
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0082930555
+	epoch done in 48.25 seconds
+
+epoch 21, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00613303568
+	epoch done in 48.30 seconds
+
+epoch 22, learning rate 0.0962
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00389203573
+	epoch done in 48.29 seconds
+
+epoch 23, learning rate 0.0926
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00180835251
+	epoch done in 48.35 seconds
+
+epoch 24, learning rate 0.0893
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 4.99977071581
+	epoch done in 49.37 seconds
+
+epoch 25, learning rate 0.0862
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 4.99824954322
+	epoch done in 48.33 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 4.99824954322, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 4.99824954322
+Unadjusted: 148.154
+Adjusted for missing vocab: 270.711
+Iteration:	21
+h_units:  	100
+l_rate:   	0.5
+look_back:	10
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 100
+Steps for back propagation: 10
+Initial learning rate set to 0.5, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 10.0576982526
+
+epoch 1, learning rate 0.5000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.21775646874
+	epoch done in 81.91 seconds
+
+epoch 2, learning rate 0.4167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 7.89435037164
+	epoch done in 82.42 seconds
+
+epoch 3, learning rate 0.3571
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.52683217357
+	epoch done in 82.29 seconds
+
+epoch 4, learning rate 0.3125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.74223710123
+	epoch done in 81.56 seconds
+
+epoch 5, learning rate 0.2778
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.50199925711
+	epoch done in 81.46 seconds
+
+epoch 6, learning rate 0.2500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.33049172146
+	epoch done in 82.02 seconds
+
+epoch 7, learning rate 0.2273
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12090550862
+	epoch done in 82.39 seconds
+
+epoch 8, learning rate 0.2083
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.08131979538
+	epoch done in 81.82 seconds
+
+epoch 9, learning rate 0.1923
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.06464274306
+	epoch done in 81.65 seconds
+
+epoch 10, learning rate 0.1786
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05591584959
+	epoch done in 81.81 seconds
+
+epoch 11, learning rate 0.1667
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.05089248962
+	epoch done in 82.67 seconds
+
+epoch 12, learning rate 0.1562
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.04225188001
+	epoch done in 82.45 seconds
+
+epoch 13, learning rate 0.1471
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03841720287
+	epoch done in 81.91 seconds
+
+epoch 14, learning rate 0.1389
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.03414810712
+	epoch done in 82.22 seconds
+
+epoch 15, learning rate 0.1316
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0267404484
+	epoch done in 81.91 seconds
+
+epoch 16, learning rate 0.1250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.02288743033
+	epoch done in 82.29 seconds
+
+epoch 17, learning rate 0.1190
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0190790778
+	epoch done in 83.75 seconds
+
+epoch 18, learning rate 0.1136
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01666952163
+	epoch done in 83.31 seconds
+
+epoch 19, learning rate 0.1087
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.01363559393
+	epoch done in 81.71 seconds
+
+epoch 20, learning rate 0.1042
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0105648842
+	epoch done in 82.51 seconds
+
+epoch 21, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00724028594
+	epoch done in 81.76 seconds
+
+epoch 22, learning rate 0.0962
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.00666704416
+	epoch done in 81.93 seconds
+
+epoch 23, learning rate 0.0926
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0022507476
+	epoch done in 81.43 seconds
+
+epoch 24, learning rate 0.0893
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.0014385956
+	epoch done in 81.97 seconds
+
+epoch 25, learning rate 0.0862
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 4.99834806929
+	epoch done in 81.66 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 4.99834806929, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 4.99834806929
+Unadjusted: 148.168
+Adjusted for missing vocab: 270.743
+Iteration:	22
+h_units:  	100
+l_rate:   	0.1
+look_back:	0
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 100
+Steps for back propagation: 0
+Initial learning rate set to 0.1, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 9.1044327608
+
+epoch 1, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.87602907262
+	epoch done in 28.54 seconds
+
+epoch 2, learning rate 0.0833
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.60487659924
+	epoch done in 29.02 seconds
+
+epoch 3, learning rate 0.0714
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.49765451765
+	epoch done in 29.10 seconds
+
+epoch 4, learning rate 0.0625
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.41443470411
+	epoch done in 28.71 seconds
+
+epoch 5, learning rate 0.0556
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36712168531
+	epoch done in 28.63 seconds
+
+epoch 6, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32353545672
+	epoch done in 28.96 seconds
+
+epoch 7, learning rate 0.0455
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29470011963
+	epoch done in 28.86 seconds
+
+epoch 8, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.27230729515
+	epoch done in 29.04 seconds
+
+epoch 9, learning rate 0.0385
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.26533931629
+	epoch done in 28.82 seconds
+
+epoch 10, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23337115999
+	epoch done in 28.91 seconds
+
+epoch 11, learning rate 0.0333
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.21873041135
+	epoch done in 28.92 seconds
+
+epoch 12, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.20618622814
+	epoch done in 28.85 seconds
+
+epoch 13, learning rate 0.0294
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.19707329374
+	epoch done in 28.91 seconds
+
+epoch 14, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.18523102332
+	epoch done in 28.91 seconds
+
+epoch 15, learning rate 0.0263
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.17728891998
+	epoch done in 28.91 seconds
+
+epoch 16, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.16927207482
+	epoch done in 28.86 seconds
+
+epoch 17, learning rate 0.0238
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.16286510899
+	epoch done in 28.79 seconds
+
+epoch 18, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15691274929
+	epoch done in 28.80 seconds
+
+epoch 19, learning rate 0.0217
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15159227425
+	epoch done in 30.83 seconds
+
+epoch 20, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14678032379
+	epoch done in 28.79 seconds
+
+epoch 21, learning rate 0.0200
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14177019503
+	epoch done in 28.98 seconds
+
+epoch 22, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14036567068
+	epoch done in 28.79 seconds
+
+epoch 23, learning rate 0.0185
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13485336451
+	epoch done in 28.79 seconds
+
+epoch 24, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13036508649
+	epoch done in 28.75 seconds
+
+epoch 25, learning rate 0.0172
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1273269939
+	epoch done in 28.83 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.1273269939, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.1273269939
+Unadjusted: 168.566
+Adjusted for missing vocab: 315.674
+Iteration:	23
+h_units:  	100
+l_rate:   	0.1
+look_back:	3
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 100
+Steps for back propagation: 3
+Initial learning rate set to 0.1, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 9.13908002622
+
+epoch 1, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.92432140382
+	epoch done in 48.35 seconds
+
+epoch 2, learning rate 0.0833
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.94176594787
+	epoch done in 48.69 seconds
+
+epoch 3, learning rate 0.0714
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.57287814288
+	epoch done in 49.21 seconds
+
+epoch 4, learning rate 0.0625
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.42537894089
+	epoch done in 48.22 seconds
+
+epoch 5, learning rate 0.0556
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36823102752
+	epoch done in 48.23 seconds
+
+epoch 6, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32696243757
+	epoch done in 48.08 seconds
+
+epoch 7, learning rate 0.0455
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29721405717
+	epoch done in 48.16 seconds
+
+epoch 8, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.26584194467
+	epoch done in 48.08 seconds
+
+epoch 9, learning rate 0.0385
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.24537995491
+	epoch done in 49.87 seconds
+
+epoch 10, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.22599652239
+	epoch done in 48.08 seconds
+
+epoch 11, learning rate 0.0333
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.21264907213
+	epoch done in 48.08 seconds
+
+epoch 12, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.19844792126
+	epoch done in 48.23 seconds
+
+epoch 13, learning rate 0.0294
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.18781637149
+	epoch done in 48.09 seconds
+
+epoch 14, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.17760922576
+	epoch done in 48.09 seconds
+
+epoch 15, learning rate 0.0263
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1699183588
+	epoch done in 48.14 seconds
+
+epoch 16, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.16360569357
+	epoch done in 48.21 seconds
+
+epoch 17, learning rate 0.0238
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1563341245
+	epoch done in 48.05 seconds
+
+epoch 18, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14980821429
+	epoch done in 48.05 seconds
+
+epoch 19, learning rate 0.0217
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14445294014
+	epoch done in 48.10 seconds
+
+epoch 20, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14106088304
+	epoch done in 48.21 seconds
+
+epoch 21, learning rate 0.0200
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13669515066
+	epoch done in 48.06 seconds
+
+epoch 22, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1315094778
+	epoch done in 48.08 seconds
+
+epoch 23, learning rate 0.0185
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12755074394
+	epoch done in 48.57 seconds
+
+epoch 24, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12463836628
+	epoch done in 48.54 seconds
+
+epoch 25, learning rate 0.0172
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12221489125
+	epoch done in 48.16 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.12221489125, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.12221489125
+Unadjusted: 167.706
+Adjusted for missing vocab: 313.758
+Iteration:	24
+h_units:  	100
+l_rate:   	0.1
+look_back:	10
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 100
+Steps for back propagation: 10
+Initial learning rate set to 0.1, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 8.74258967226
+
+epoch 1, learning rate 0.1000
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.90236046979
+	epoch done in 81.96 seconds
+
+epoch 2, learning rate 0.0833
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.79688461269
+	epoch done in 82.15 seconds
+
+epoch 3, learning rate 0.0714
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.53608394985
+	epoch done in 82.26 seconds
+
+epoch 4, learning rate 0.0625
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.39734791413
+	epoch done in 82.60 seconds
+
+epoch 5, learning rate 0.0556
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34203590652
+	epoch done in 81.87 seconds
+
+epoch 6, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30544157955
+	epoch done in 82.79 seconds
+
+epoch 7, learning rate 0.0455
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.26896536119
+	epoch done in 82.25 seconds
+
+epoch 8, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2453114827
+	epoch done in 83.39 seconds
+
+epoch 9, learning rate 0.0385
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.22342984527
+	epoch done in 82.24 seconds
+
+epoch 10, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.20624888999
+	epoch done in 82.91 seconds
+
+epoch 11, learning rate 0.0333
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.19200127064
+	epoch done in 82.16 seconds
+
+epoch 12, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.18044227159
+	epoch done in 82.65 seconds
+
+epoch 13, learning rate 0.0294
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.17031772761
+	epoch done in 82.24 seconds
+
+epoch 14, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1618834354
+	epoch done in 82.65 seconds
+
+epoch 15, learning rate 0.0263
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.15484082829
+	epoch done in 81.78 seconds
+
+epoch 16, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14777979535
+	epoch done in 83.51 seconds
+
+epoch 17, learning rate 0.0238
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.14200963824
+	epoch done in 81.87 seconds
+
+epoch 18, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13710464056
+	epoch done in 82.41 seconds
+
+epoch 19, learning rate 0.0217
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.13189618342
+	epoch done in 83.27 seconds
+
+epoch 20, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12774958308
+	epoch done in 83.00 seconds
+
+epoch 21, learning rate 0.0200
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.12359897944
+	epoch done in 81.92 seconds
+
+epoch 22, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.1199440439
+	epoch done in 82.17 seconds
+
+epoch 23, learning rate 0.0185
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.11673599982
+	epoch done in 82.10 seconds
+
+epoch 24, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.11438253475
+	epoch done in 82.40 seconds
+
+epoch 25, learning rate 0.0172
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.11082719756
+	epoch done in 81.95 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.11082719756, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.11082719756
+Unadjusted: 165.807
+Adjusted for missing vocab: 309.534
+Iteration:	25
+h_units:  	100
+l_rate:   	0.05
+look_back:	0
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 100
+Steps for back propagation: 0
+Initial learning rate set to 0.05, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 9.8768349902
+
+epoch 1, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 6.24239788236
+	epoch done in 28.22 seconds
+
+epoch 2, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.67495651679
+	epoch done in 28.25 seconds
+
+epoch 3, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.56947757263
+	epoch done in 28.29 seconds
+
+epoch 4, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.50348745095
+	epoch done in 28.30 seconds
+
+epoch 5, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.4560237343
+	epoch done in 28.19 seconds
+
+epoch 6, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.41940279992
+	epoch done in 28.55 seconds
+
+epoch 7, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.39028602368
+	epoch done in 28.19 seconds
+
+epoch 8, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36839695522
+	epoch done in 28.36 seconds
+
+epoch 9, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34781115836
+	epoch done in 28.18 seconds
+
+epoch 10, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.33138708532
+	epoch done in 28.10 seconds
+
+epoch 11, learning rate 0.0167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31659084927
+	epoch done in 28.18 seconds
+
+epoch 12, learning rate 0.0156
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30492210526
+	epoch done in 28.09 seconds
+
+epoch 13, learning rate 0.0147
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29308351717
+	epoch done in 28.64 seconds
+
+epoch 14, learning rate 0.0139
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.28242878891
+	epoch done in 28.67 seconds
+
+epoch 15, learning rate 0.0132
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2733373904
+	epoch done in 28.75 seconds
+
+epoch 16, learning rate 0.0125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.26548690411
+	epoch done in 28.28 seconds
+
+epoch 17, learning rate 0.0119
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25750147772
+	epoch done in 28.16 seconds
+
+epoch 18, learning rate 0.0114
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25032455371
+	epoch done in 28.04 seconds
+
+epoch 19, learning rate 0.0109
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2441375202
+	epoch done in 28.32 seconds
+
+epoch 20, learning rate 0.0104
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23819523759
+	epoch done in 28.03 seconds
+
+epoch 21, learning rate 0.0100
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23264286311
+	epoch done in 28.14 seconds
+
+epoch 22, learning rate 0.0096
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2278628516
+	epoch done in 28.06 seconds
+
+epoch 23, learning rate 0.0093
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.22280759547
+	epoch done in 28.14 seconds
+
+epoch 24, learning rate 0.0089
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2182011774
+	epoch done in 28.04 seconds
+
+epoch 25, learning rate 0.0086
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.21397382927
+	epoch done in 28.33 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.21397382927, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.21397382927
+Unadjusted: 183.823
+Adjusted for missing vocab: 349.973
+Iteration:	26
+h_units:  	100
+l_rate:   	0.05
+look_back:	3
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 100
+Steps for back propagation: 3
+Initial learning rate set to 0.05, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 9.65379141807
+
+epoch 1, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.98515888347
+	epoch done in 48.32 seconds
+
+epoch 2, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.75287365048
+	epoch done in 48.51 seconds
+
+epoch 3, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.6008181708
+	epoch done in 48.37 seconds
+
+epoch 4, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.52195302736
+	epoch done in 48.74 seconds
+
+epoch 5, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.46996196352
+	epoch done in 48.64 seconds
+
+epoch 6, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.43024806091
+	epoch done in 48.51 seconds
+
+epoch 7, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.40126643745
+	epoch done in 48.33 seconds
+
+epoch 8, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.37655492005
+	epoch done in 48.62 seconds
+
+epoch 9, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.35487675156
+	epoch done in 48.62 seconds
+
+epoch 10, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.3382123049
+	epoch done in 48.40 seconds
+
+epoch 11, learning rate 0.0167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32406967462
+	epoch done in 48.40 seconds
+
+epoch 12, learning rate 0.0156
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30882797353
+	epoch done in 48.40 seconds
+
+epoch 13, learning rate 0.0147
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29681283773
+	epoch done in 48.56 seconds
+
+epoch 14, learning rate 0.0139
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.28603081089
+	epoch done in 48.41 seconds
+
+epoch 15, learning rate 0.0132
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.27749572123
+	epoch done in 48.41 seconds
+
+epoch 16, learning rate 0.0125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.26769899353
+	epoch done in 48.15 seconds
+
+epoch 17, learning rate 0.0119
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25965584616
+	epoch done in 48.74 seconds
+
+epoch 18, learning rate 0.0114
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25242435437
+	epoch done in 49.15 seconds
+
+epoch 19, learning rate 0.0109
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.24558729321
+	epoch done in 48.28 seconds
+
+epoch 20, learning rate 0.0104
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23941449496
+	epoch done in 48.10 seconds
+
+epoch 21, learning rate 0.0100
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.23387706519
+	epoch done in 48.31 seconds
+
+epoch 22, learning rate 0.0096
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.22849778678
+	epoch done in 48.16 seconds
+
+epoch 23, learning rate 0.0093
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.22341201072
+	epoch done in 48.00 seconds
+
+epoch 24, learning rate 0.0089
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2187759686
+	epoch done in 48.26 seconds
+
+epoch 25, learning rate 0.0086
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.21439994561
+	epoch done in 50.03 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.21439994561, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.21439994561
+Unadjusted: 183.901
+Adjusted for missing vocab: 350.151
+Iteration:	27
+h_units:  	100
+l_rate:   	0.05
+look_back:	10
+Training model for 25 epochs
+training set: 1000 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 100
+Steps for back propagation: 10
+Initial learning rate set to 0.05, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 8.68742220474
+
+epoch 1, learning rate 0.0500
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.97156450244
+	epoch done in 82.73 seconds
+
+epoch 2, learning rate 0.0417
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.71327327643
+	epoch done in 82.91 seconds
+
+epoch 3, learning rate 0.0357
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.60622739782
+	epoch done in 82.52 seconds
+
+epoch 4, learning rate 0.0312
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.54294334174
+	epoch done in 82.78 seconds
+
+epoch 5, learning rate 0.0278
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.4975369564
+	epoch done in 82.49 seconds
+
+epoch 6, learning rate 0.0250
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.46280390929
+	epoch done in 82.73 seconds
+
+epoch 7, learning rate 0.0227
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.43440061954
+	epoch done in 82.48 seconds
+
+epoch 8, learning rate 0.0208
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.41177439069
+	epoch done in 82.61 seconds
+
+epoch 9, learning rate 0.0192
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.39181897136
+	epoch done in 82.38 seconds
+
+epoch 10, learning rate 0.0179
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.37485654055
+	epoch done in 82.56 seconds
+
+epoch 11, learning rate 0.0167
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.36232232596
+	epoch done in 82.01 seconds
+
+epoch 12, learning rate 0.0156
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.34861998898
+	epoch done in 82.38 seconds
+
+epoch 13, learning rate 0.0147
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.33613298143
+	epoch done in 81.92 seconds
+
+epoch 14, learning rate 0.0139
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.32552702046
+	epoch done in 82.76 seconds
+
+epoch 15, learning rate 0.0132
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.31656289373
+	epoch done in 81.94 seconds
+
+epoch 16, learning rate 0.0125
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.30735537599
+	epoch done in 82.38 seconds
+
+epoch 17, learning rate 0.0119
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29955058151
+	epoch done in 81.98 seconds
+
+epoch 18, learning rate 0.0114
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.29223253957
+	epoch done in 86.16 seconds
+
+epoch 19, learning rate 0.0109
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.28582639044
+	epoch done in 82.05 seconds
+
+epoch 20, learning rate 0.0104
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.27920928626
+	epoch done in 85.01 seconds
+
+epoch 21, learning rate 0.0100
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.2738539117
+	epoch done in 82.04 seconds
+
+epoch 22, learning rate 0.0096
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.26855675224
+	epoch done in 84.87 seconds
+
+epoch 23, learning rate 0.0093
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.262339294
+	epoch done in 83.52 seconds
+
+epoch 24, learning rate 0.0089
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25743301669
+	epoch done in 84.87 seconds
+
+epoch 25, learning rate 0.0086
+	pair 1000
+	calculating new loss on dev set
+	mean loss: 5.25294001322
+	epoch done in 82.96 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 5.25294001322, at epoch 25
+setting U, V, W to matrices from best epoch
+mean loss: 5.25294001322
+Unadjusted: 191.127
+Adjusted for missing vocab: 366.589

@@ -1,0 +1,27 @@
+Experiment started at 21_03_2016_124846
+
+Iteration:	1
+h_units:  	10
+l_rate:   	0.5
+look_back:	0
+Retained 2000 words from 38444 (84.00% of all tokens)
+mean loss: 5.65238883118
+Unadjusted: 284.971
+Adjusted for missing vocab: 589.785
+ === Iteration Ends === 
+
+Iteration:	2
+h_units:  	10
+l_rate:   	0.5
+look_back:	3
+Retained 2000 words from 38444 (84.00% of all tokens)
+mean loss: 5.85834130158
+Unadjusted: 350.143
+Adjusted for missing vocab: 753.652
+ === Iteration Ends === 
+
+Iteration:	3
+h_units:  	10
+l_rate:   	0.5
+look_back:	10
+Retained 2000 words from 38444 (84.00% of all tokens)

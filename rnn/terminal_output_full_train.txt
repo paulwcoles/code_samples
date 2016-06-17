@@ -1,0 +1,186 @@
+Experiment started at 22_03_2016_163606
+
+
+Retained 2000 words from 38444 (84.00% of all tokens)
+
+Job started successfully
+[lotus]s1523545:
+Training RNN...
+Training model for 25 epochs
+training set: 56522 sentences (batch size 100)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 100
+Steps for back propagation: 3
+Initial learning rate set to 0.5, annealing set to 5
+
+calculating initial mean loss on dev set
+initial mean loss: 9.45713182612
+
+epoch 1, learning rate 0.5000
+[lotus]spair 56522216
+	calculating new loss on dev set
+	mean loss: 4.70355251994
+	epoch done in 4410.69 seconds
+
+epoch 2, learning rate 0.4167
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.63467282256
+	epoch done in 4434.62 seconds
+
+epoch 3, learning rate 0.3571
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.50865842742
+	epoch done in 4425.85 seconds
+
+epoch 4, learning rate 0.3125
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.50172223916
+	epoch done in 4405.87 seconds
+
+epoch 5, learning rate 0.2778
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.39307518163
+	epoch done in 4394.99 seconds
+
+epoch 6, learning rate 0.2500
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.29480363696
+	epoch done in 4705.49 seconds
+
+epoch 7, learning rate 0.2273
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.2718007123
+	epoch done in 4394.48 seconds
+
+epoch 8, learning rate 0.2083
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.27978061323
+	epoch done in 4413.11 seconds
+
+epoch 9, learning rate 0.1923
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.239970055
+	epoch done in 4401.95 seconds
+
+epoch 10, learning rate 0.1786
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.26238554336
+	epoch done in 4409.88 seconds
+
+epoch 11, learning rate 0.1667
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.21597327141
+	epoch done in 4410.53 seconds
+
+epoch 12, learning rate 0.1562
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.19488994516
+	epoch done in 4423.14 seconds
+
+epoch 13, learning rate 0.1471
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.15894116751
+	epoch done in 4420.65 seconds
+
+epoch 14, learning rate 0.1389
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.14291292713
+	epoch done in 4404.05 seconds
+
+epoch 15, learning rate 0.1316
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.13200045278
+	epoch done in 4412.46 seconds
+
+epoch 16, learning rate 0.1250
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.1384290828
+	epoch done in 4399.95 seconds
+
+epoch 17, learning rate 0.1190
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.16003124415
+	epoch done in 4463.53 seconds
+
+epoch 18, learning rate 0.1136
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.09338352967
+	epoch done in 4471.35 seconds
+
+epoch 19, learning rate 0.1087
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.10634665331
+	epoch done in 4448.70 seconds
+
+epoch 20, learning rate 0.1042
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.09656185605
+	epoch done in 4442.74 seconds
+
+epoch 21, learning rate 0.1000
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.07840817426
+	epoch done in 4494.53 seconds
+
+epoch 22, learning rate 0.0962
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.09362296429
+	epoch done in 4402.37 seconds
+
+epoch 23, learning rate 0.0926
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.07165378952
+	epoch done in 4386.46 seconds
+
+epoch 24, learning rate 0.0893
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.09331576593
+	epoch done in 4410.95 seconds
+
+epoch 25, learning rate 0.0862
+	pair 56522
+	calculating new loss on dev set
+	mean loss: 4.10544982641
+	epoch done in 4419.51 seconds
+
+training finished after reaching maximum of 25 epochs
+best observed loss was 4.07165378952, at epoch 23
+setting U, V, W to matrices from best epoch
+
+ Computing loss against truncated dev set...
+mean loss (truncated data): 4.07165378952
+Unadjusted: 58.654
+Adjusted for missing vocab: 89.838
+
+Saving RNN matricies...
+
+
+Evaluating against whole dev set...
+
+mean loss (all data): 4.11756997097
+Unadjusted (all data): 61.410
+Adjusted for missing vocab (all data): 94.885

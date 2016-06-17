@@ -1,0 +1,246 @@
+Experiment started at 21_03_2016_125916
+
+Retained 2000 words from 38444 (84.00% of all tokens)
+Iteration:	1
+h_units:  	10
+l_rate:   	0.5
+look_back:	0
+mean loss: 5.02286575318
+Unadjusted: 151.846
+Adjusted for missing vocab: 278.761
+ === Iteration Ends === 
+
+Iteration:	2
+h_units:  	10
+l_rate:   	0.5
+look_back:	3
+mean loss: 5.02468607499
+Unadjusted: 152.122
+Adjusted for missing vocab: 279.366
+ === Iteration Ends === 
+
+Iteration:	3
+h_units:  	10
+l_rate:   	0.5
+look_back:	10
+mean loss: 5.00989081311
+Unadjusted: 149.888
+Adjusted for missing vocab: 274.489
+ === Iteration Ends === 
+
+Iteration:	4
+h_units:  	10
+l_rate:   	0.1
+look_back:	0
+mean loss: 5.25833157128
+Unadjusted: 192.161
+Adjusted for missing vocab: 368.950
+ === Iteration Ends === 
+
+Iteration:	5
+h_units:  	10
+l_rate:   	0.1
+look_back:	3
+mean loss: 5.29535965868
+Unadjusted: 199.409
+Adjusted for missing vocab: 385.577
+ === Iteration Ends === 
+
+Iteration:	6
+h_units:  	10
+l_rate:   	0.1
+look_back:	10
+mean loss: 5.28701524129
+Unadjusted: 197.752
+Adjusted for missing vocab: 381.766
+ === Iteration Ends === 
+
+Iteration:	7
+h_units:  	10
+l_rate:   	0.05
+look_back:	0
+mean loss: 5.44126171074
+Unadjusted: 230.733
+Adjusted for missing vocab: 458.714
+ === Iteration Ends === 
+
+Iteration:	8
+h_units:  	10
+l_rate:   	0.05
+look_back:	3
+mean loss: 5.47692990281
+Unadjusted: 239.111
+Adjusted for missing vocab: 478.610
+ === Iteration Ends === 
+
+Iteration:	9
+h_units:  	10
+l_rate:   	0.05
+look_back:	10
+mean loss: 5.44190973146
+Unadjusted: 230.883
+Adjusted for missing vocab: 459.068
+ === Iteration Ends === 
+
+Iteration:	10
+h_units:  	50
+l_rate:   	0.5
+look_back:	0
+mean loss: 5.00172595001
+Unadjusted: 148.670
+Adjusted for missing vocab: 271.834
+ === Iteration Ends === 
+
+Iteration:	11
+h_units:  	50
+l_rate:   	0.5
+look_back:	3
+mean loss: 5.02008235278
+Unadjusted: 151.424
+Adjusted for missing vocab: 277.839
+ === Iteration Ends === 
+
+Iteration:	12
+h_units:  	50
+l_rate:   	0.5
+look_back:	10
+mean loss: 5.00032202721
+Unadjusted: 148.461
+Adjusted for missing vocab: 271.380
+ === Iteration Ends === 
+
+Iteration:	13
+h_units:  	50
+l_rate:   	0.1
+look_back:	0
+mean loss: 5.13006184163
+Unadjusted: 169.028
+Adjusted for missing vocab: 316.703
+ === Iteration Ends === 
+
+Iteration:	14
+h_units:  	50
+l_rate:   	0.1
+look_back:	3
+mean loss: 5.13060043294
+Unadjusted: 169.119
+Adjusted for missing vocab: 316.906
+ === Iteration Ends === 
+
+Iteration:	15
+h_units:  	50
+l_rate:   	0.1
+look_back:	10
+mean loss: 5.12122883681
+Unadjusted: 167.541
+Adjusted for missing vocab: 313.390
+ === Iteration Ends === 
+
+Iteration:	16
+h_units:  	50
+l_rate:   	0.05
+look_back:	0
+mean loss: 5.31443984858
+Unadjusted: 203.251
+Adjusted for missing vocab: 394.435
+ === Iteration Ends === 
+
+Iteration:	17
+h_units:  	50
+l_rate:   	0.05
+look_back:	3
+mean loss: 5.30661870373
+Unadjusted: 201.667
+Adjusted for missing vocab: 390.779
+ === Iteration Ends === 
+
+Iteration:	18
+h_units:  	50
+l_rate:   	0.05
+look_back:	10
+mean loss: 5.2904146956
+Unadjusted: 198.426
+Adjusted for missing vocab: 383.314
+ === Iteration Ends === 
+
+Iteration:	19
+h_units:  	100
+l_rate:   	0.5
+look_back:	0
+mean loss: 5.31819477016
+Unadjusted: 204.015
+Adjusted for missing vocab: 396.202
+ === Iteration Ends === 
+
+Iteration:	20
+h_units:  	100
+l_rate:   	0.5
+look_back:	3
+mean loss: 4.99824954322
+Unadjusted: 148.154
+Adjusted for missing vocab: 270.711
+ === Iteration Ends === 
+
+Iteration:	21
+h_units:  	100
+l_rate:   	0.5
+look_back:	10
+mean loss: 4.99834806929
+Unadjusted: 148.168
+Adjusted for missing vocab: 270.743
+ === Iteration Ends === 
+
+Iteration:	22
+h_units:  	100
+l_rate:   	0.1
+look_back:	0
+mean loss: 5.1273269939
+Unadjusted: 168.566
+Adjusted for missing vocab: 315.674
+ === Iteration Ends === 
+
+Iteration:	23
+h_units:  	100
+l_rate:   	0.1
+look_back:	3
+mean loss: 5.12221489125
+Unadjusted: 167.706
+Adjusted for missing vocab: 313.758
+ === Iteration Ends === 
+
+Iteration:	24
+h_units:  	100
+l_rate:   	0.1
+look_back:	10
+mean loss: 5.11082719756
+Unadjusted: 165.807
+Adjusted for missing vocab: 309.534
+ === Iteration Ends === 
+
+Iteration:	25
+h_units:  	100
+l_rate:   	0.05
+look_back:	0
+mean loss: 5.21397382927
+Unadjusted: 183.823
+Adjusted for missing vocab: 349.973
+ === Iteration Ends === 
+
+Iteration:	26
+h_units:  	100
+l_rate:   	0.05
+look_back:	3
+mean loss: 5.21439994561
+Unadjusted: 183.901
+Adjusted for missing vocab: 350.151
+ === Iteration Ends === 
+
+Iteration:	27
+h_units:  	100
+l_rate:   	0.05
+look_back:	10
+mean loss: 5.25294001322
+Unadjusted: 191.127
+Adjusted for missing vocab: 366.589
+ === Iteration Ends === 
+
